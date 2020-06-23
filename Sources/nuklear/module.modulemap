@@ -1,0 +1,5 @@
+module nuklear {
+    header "nuklear.h"
+    export *
+    link "nuklear"
+}
