@@ -11,7 +11,8 @@ let package = Package(
             name: "swiftNuklear",
             type: .dynamic,
             targets: ["swiftNuklear"]),
-        .library(name: "nuklear", targets: ["nuklear"])
+        .library(name: "nuklear",
+                 targets: ["nuklear"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
