@@ -1,7 +1,7 @@
 import nuklear
 
 public final class Frame {
-    public let rect: nk_rect
+    private (set) public var rect: nk_rect
     
     init(x: Float,
          y: Float,
