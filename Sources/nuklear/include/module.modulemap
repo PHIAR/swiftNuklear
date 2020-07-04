@@ -1,4 +1,4 @@
 module nuklear {
-    header "nuklear.h"
+    header "nuklear_internal.h"
     export *
 }
